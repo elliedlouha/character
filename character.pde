@@ -7,12 +7,10 @@ int eyeH = 50;
 int corneaY = 200;
 background(100, 0, 100);
 noStroke();
-//fill(255, 255, 255);
-//rect(10, 20, 480, 460);
 
 //legs
 fill(0, 240, 0);
-rect(210, rectY, 15, 100); //horozontal x, vertical y, width, height
+rect(210, rectY, 15, 100); 
 rect(280, rectY, 15, 100);
 
 //feet
